@@ -1,4 +1,8 @@
-public class MergeSort implements ISort{
+package sorts;
+
+import sorts.ISort;
+
+public class MergeSort implements ISort {
 
     public int[] sort(int[] arr) {
         int right = arr.length-1;

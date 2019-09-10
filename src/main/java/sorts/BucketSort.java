@@ -1,4 +1,6 @@
-public class BucketSort implements ISort {// не работает с отрицательными числами
+package sorts;
+
+public class BucketSort implements ISort {
 
     public int[] sort(int[] arr) {
         int maxValue = maxVal(arr);
