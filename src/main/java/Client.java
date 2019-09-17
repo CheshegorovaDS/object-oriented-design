@@ -12,6 +12,9 @@ public class Client {
         Cake cake = cakeBuilder.getResult();
         System.out.println(cake.toString());
 
-        
+
+        director.constructHoneyCake(cakeBuilder);
+        Cake cake2 = cakeBuilder.getResult();
+        System.out.println(cake2.toString());
     }
 }

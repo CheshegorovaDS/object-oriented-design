@@ -3,6 +3,7 @@ package cake;
 import components.Cream;
 import components.Korzh;
 import components.Topping;
+import java.util.Objects;
 
 public class Cake {
     private Korzh korzh;
@@ -44,5 +45,21 @@ public class Cake {
                 ", cream=" + cream.toString() +
                 ", countBiscuit=" + countBiscuit +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Cake)) return false;
+        Cake cake = (Cake) o;
+        return countBiscuit == cake.countBiscuit &&
+                korzh == cake.korzh &&
+                topping == cake.topping &&
+                Objects.equals(cream, cake.cream);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(korzh, topping, cream, countBiscuit);
     }
 }

@@ -1,5 +1,7 @@
 package components;
 
+import java.util.Objects;
+
 public class Cream {
     private int eggs;
     private double milk;
@@ -18,5 +20,20 @@ public class Cream {
                 ", milk=" + milk +
                 ", chocolateChip=" + chocolateChip +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Cream)) return false;
+        Cream cream = (Cream) o;
+        return eggs == cream.eggs &&
+                Double.compare(cream.milk, milk) == 0 &&
+                chocolateChip == cream.chocolateChip;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(eggs, milk, chocolateChip);
     }
 }
