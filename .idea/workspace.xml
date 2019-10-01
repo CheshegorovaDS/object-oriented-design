@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69731baf-21fc-4aa6-9811-36c2e0b13789" name="Default Changelist" comment="" />
+    <list default="true" id="69731baf-21fc-4aa6-9811-36c2e0b13789" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patternabstractfactory/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patternabstractfactory/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/patternabstractfactory/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patternabstractfactory/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patternabstractfactory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/patternabstractfactory/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,10 +19,12 @@
     <session id="122741266">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="3" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -42,7 +50,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -93,68 +101,44 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="PatternBridge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="object-oriented-design" type="b2602c69:ProjectViewProjectNode" />
               <item name="object-oriented-design" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PatternBridge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="object-oriented-design" type="b2602c69:ProjectViewProjectNode" />
               <item name="object-oriented-design" type="462c0819:PsiDirectoryNode" />
+              <item name="patternabstractfactory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="object-oriented-design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="object-oriented-design" type="462c0819:PsiDirectoryNode" />
+              <item name="patternabstractfactory" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PatternBridge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="object-oriented-design" type="b2602c69:ProjectViewProjectNode" />
               <item name="object-oriented-design" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PatternBridge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="object-oriented-design" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PatternBridge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="object-oriented-design" type="462c0819:PsiDirectoryNode" />
+              <item name="patternabstractfactory" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="imit" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PatternBridge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="object-oriented-design" type="b2602c69:ProjectViewProjectNode" />
               <item name="object-oriented-design" type="462c0819:PsiDirectoryNode" />
+              <item name="patternabstractfactory" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="imit" type="462c0819:PsiDirectoryNode" />
-              <item name="foods" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PatternBridge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="object-oriented-design" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="imit" type="462c0819:PsiDirectoryNode" />
-              <item name="microwaves" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PatternBridge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="object-oriented-design" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,14 +177,13 @@
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.257886" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26342005" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -211,6 +194,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.32972974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -225,104 +209,19 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/colors/Red.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/colors/Green.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/Сircle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/shapes/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/colors/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/Square.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/microwaves/MicrowaveOven.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/foods/Food.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/microwaves/MicrowaveSamsung.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/microwaves/MicrowaveSony.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/foods/Meat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="28" />
-          <folding>
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/foods/Fruit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/colors/Red.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/colors/Green.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/Сircle.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/shapes/Shape.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/colors/Color.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/Square.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/Demo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/microwaves/MicrowaveOven.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/foods/Food.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/microwaves/MicrowaveSamsung.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/microwaves/MicrowaveSony.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/foods/Meat.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/foods/Fruit.java" />
   </component>
   <component name="masterDetails">
     <states>
