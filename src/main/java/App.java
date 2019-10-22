@@ -1,4 +1,6 @@
 public class App {
-    PersonalData personalData = PersonalData.getInstance("login");
-    String nameOfUser = personalData.getPerson().getName();
+    public static void main(String[] args) {
+        PersonalData personalData = PersonalData.getInstance("login");
+        String nameOfUser = personalData.getPerson().getName();
+    }
 }
