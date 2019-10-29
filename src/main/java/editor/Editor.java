@@ -4,15 +4,13 @@ import user.User;
 import publisher.EventManager;
 
 // Конкретный класс-издатель, содержащий интересную для других
-// компонентов бизнес-логику. Мы могли бы сделать его прямым
-// потомком EventManager, но в реальной жизни это не всегда
-// возможно (например, если у класса уже есть родитель). Поэтому
+// компонентов бизнес-логику. Поэтому
 // здесь мы подключаем механизм подписки при помощи композиции.
 public class Editor {
-    private EventManager eventManager;
+    public EventManager eventManager;
 
     public Editor() {
-        eventManager = new EventManager();
+        eventManager = new EventManager("translation","news");
     }
 
     public void creatingRecord(User user){
