@@ -1,7 +1,7 @@
 public class Compiler {
 
-    public void Compile()
-    {
+    public void Compile() {
         System.out.println("Компиляция приложения");
     }
+
 }

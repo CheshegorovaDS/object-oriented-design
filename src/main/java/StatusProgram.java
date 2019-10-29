@@ -1,11 +1,10 @@
 public class StatusProgram {
 
-    public void execute()
-    {
+    public void execute(){
         System.out.println("Выполнение приложения");
     }
-    public void finish()
-    {
+
+    public void finish(){
         System.out.println("Завершение работы приложения");
     }
 }
