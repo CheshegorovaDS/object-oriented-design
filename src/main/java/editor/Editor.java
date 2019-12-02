@@ -1,5 +1,6 @@
 package editor;
 
+import command.Command;
 import history.History;
 import history.Memento;
 import photo_elements.Filter;
@@ -10,31 +11,41 @@ import java.util.Collections;
 import java.util.List;
 
 public class Editor {
-  //  private History history;
+
     private String text;
     private List<Image> images= new ArrayList<>();
     private List<Filter> filteres = new ArrayList<>();
+    private History history;
 
     public Editor() {
-        //history = new History();
+        history = new History();
     }
 
     public void addText(String text){
+        history.push(new Command(this,"Text: "+text),createSnapshot());
         this.text = text;
         System.out.println("Add text "+ text+".");
     }
 
-    public void loadImages(Image...images){
-        Collections.addAll(this.images, images);
-        System.out.println();
+    public void loadImages(Image image){
+        history.push(new Command(this,"Image: "+image.getName()),createSnapshot());
+        Collections.addAll(this.images, image);
+        System.out.println("Add image" + image.getName());
     }
 
     public void addFilter(Filter filter){
+        history.push(new Command(this,"Filter" + filter.getName()),createSnapshot());
         filteres.add(filter);
         System.out.println("Add filter "+filter.getName()+".");
     }
 
+    // Класс создателя должен иметь специальный метод, который
+    // сохраняет состояние создателя в новом объекте-снимке.
+
     public Memento createSnapshot(){
+        // Снимок — неизменяемый объект, поэтому Создатель
+        // передаёт все своё состояние через параметры
+        // конструктора.
         return new Memento(this,text,images,filteres);
     }
 
@@ -60,12 +71,13 @@ public class Editor {
         return filteres;
     }
 
-    /* public String backup() {
-
-        return "";
+    public void restore(Memento memento){
+        images = memento.getImages();
+        text = memento.getText();
+        filteres = memento.getFilteres();
     }
 
-    public void restore(String state) {
-
-    }*/
+    public void undo(){
+        history.undo();
+    }
 }
