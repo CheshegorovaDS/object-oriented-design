@@ -35,7 +35,7 @@ public class History {
             return false;
         }
         System.out.println("Undoing: " + pair.getCommand().getName());
-        pair.memento.restore();
+        pair.command.undo();
         pair.getMemento().restore();
         return true;
     }

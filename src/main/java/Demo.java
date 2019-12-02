@@ -6,6 +6,7 @@ public class Demo {
     public static void main(String[] args){
         Editor editor = new Editor();
         editor.addFilter(Filter.LOMO);
+        editor.addFilter(Filter.CITY);
         System.out.println("------------------------");
         editor.addText("Hello");
         System.out.println("------------------------");
@@ -18,6 +19,5 @@ public class Demo {
         editor.getImages();
         editor.getText();
         editor.getFilteres();
-        editor.undo();
     }
 }
