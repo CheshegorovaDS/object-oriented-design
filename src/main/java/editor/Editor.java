@@ -39,13 +39,8 @@ public class Editor {
         System.out.println("Add filter "+filter.getName()+".");
     }
 
-    // Класс создателя должен иметь специальный метод, который
-    // сохраняет состояние создателя в новом объекте-снимке.
-
     public Memento createSnapshot(){
-        // Снимок — неизменяемый объект, поэтому Создатель
-        // передаёт все своё состояние через параметры
-        // конструктора.
+
         return new Memento(this,text,images,filteres);
     }
 

@@ -21,8 +21,7 @@ public class Memento {
       this.filteres = filteres;
    }
 
-   // В нужный момент владелец снимка может восстановить
-   // состояние редактора.
+
    public void restore(){
       editor.restore(this);
    }
